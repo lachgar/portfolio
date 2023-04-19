@@ -2,16 +2,19 @@
 
 /* Style de l'en-tête */
 .header {
-  background-color: #007bff;
+  background-image: linear-gradient(to bottom right, #00ffff, #0080ff, #8000ff, #ff0080, #ff8000);
   color: #fff;
-  padding: 60px;
+  padding: 40px;
   text-align: center;
 }
 
+
+
+
 /* Style de la photo de profil */
 .profile-img {
-  width: 200px;
-  height: 200px;
+  width: 140px;
+  height: 140px;
   border-radius: 50%;
   object-fit: cover;
   margin-top: -100px;
