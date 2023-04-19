@@ -5,7 +5,7 @@ const ExperienceCard = ({ logo, title, position, duration, courses }) => {
     return (
         <Card title={title} subTitle={position} footer={duration}>
             <div>
-                <h5>Courses:</h5>
+                <h5>Cours:</h5>
                 <ul>
                     {courses.map((course, index) => (
                         <li key={index}>{course}</li>
@@ -51,7 +51,8 @@ const Experiences = () => {
             position: 'Formateur',
             duration: 'oct. 2009 - Juin. 2019 · 10 ans',
             location: 'Préfecture de Marrakech, Morocco',
-            courses: ['Techniques de développement informatique']
+            courses: ['Filière : Techniques de développement informatique',
+                'Filière: Concepteur Réalisateur Java J2EE']
         },
         {
             logo: 'https://chemin/vers/logo/emines.png',
@@ -73,16 +74,20 @@ const Experiences = () => {
 
     return (
         <section className="section">
-            {experienceData.map((experience, index) => (
-                <ExperienceCard
-                    key={index}
-                    title={experience.title}
-                    position={experience.position}
-                    duration={experience.duration}
-                    courses={experience.courses}
-                />
-            ))}
+            <div className="experience-grid">
+                {experienceData.map((experience, index) => (
+                    <div key={index} className="card" style={{ backgroundColor: "#f2f2f2", marginBottom: "20px" }}>
+                        <ExperienceCard
+                            title={experience.title}
+                            position={experience.position}
+                            duration={experience.duration}
+                            courses={experience.courses}
+                        />
+                    </div>
+                ))}
+            </div>
         </section>
+
     );
 };
 
