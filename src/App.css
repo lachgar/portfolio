@@ -1,0 +1,69 @@
+/* App.css */
+
+/* Style de l'en-tête */
+.header {
+  background-color: #007bff;
+  color: #fff;
+  padding: 60px;
+  text-align: center;
+}
+
+/* Style de la photo de profil */
+.profile-img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-top: -100px;
+}
+
+/* Style du menu de navigation */
+.navbar {
+  background-color: #f8f9fa;
+  padding: 20px;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.navbar li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.navbar a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  color: #0056b3;
+}
+
+/* Style des sections de contenu */
+.section {
+  padding: 60px 0;
+}
+
+.section h2 {
+  margin-bottom: 40px;
+}
+
+.section h3 {
+  margin-top: 0;
+}
+
+/* Style du pied de page */
+.footer {
+  background-color: #f8f9fa;
+  padding: 20px;
+  text-align: center;
+}
+
+.profile-img {
+  margin-top: 2px;
+}
