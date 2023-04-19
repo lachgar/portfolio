@@ -49,7 +49,7 @@ const Experiences = () => {
             logo: 'https://chemin/vers/logo/ofppt.png',
             title: 'Office de la Formation Professionnelle et de la Promotion du Travail (OFPPT)',
             position: 'Formateur',
-            duration: 'oct. 2009 - Juin. 2019 · 10 ans',
+            duration: 'oct. 2009 - juin. 2019 · 10 ans',
             location: 'Préfecture de Marrakech, Morocco',
             courses: ['Filière : Techniques de développement informatique',
                 'Filière: Concepteur Réalisateur Java J2EE']
