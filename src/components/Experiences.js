@@ -21,7 +21,7 @@ const Experiences = () => {
     const experienceData = [
         {
             logo: '../assets/ensaj.png',
-            title: 'Ecole Nationale des sciences appliquées d\'El Jadida',
+            title: 'Ecole Nationale des Sciences Appliquées d\'El Jadida',
             position: 'Professeur d\'enseignement supérieur assistant',
             duration: 'juin 2019 - aujourd\'hui',
             location: 'Province d’El Jadida, Morocco',
@@ -47,7 +47,7 @@ const Experiences = () => {
         },
         {
             logo: 'https://chemin/vers/logo/ofppt.png',
-            title: 'OFPPT',
+            title: 'Office de la Formation Professionnelle et de la Promotion du Travail (OFPPT)',
             position: 'Formateur',
             duration: 'oct. 2009 - Juin. 2019 · 10 ans',
             location: 'Préfecture de Marrakech, Morocco',
@@ -64,7 +64,7 @@ const Experiences = () => {
         },
         {
             logo: 'https://chemin/vers/logo/upm.png',
-            title: 'Université Privée de Marrakech',
+            title: 'Université Privée de Marrakech (UPM)',
             position: 'Professeur (Temps partiel)',
             duration: 'sept. 2012 - juil. 2016 · 3 ans 11 mois',
             location: 'Temps partiel',
