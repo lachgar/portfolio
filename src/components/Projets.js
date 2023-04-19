@@ -1,14 +1,16 @@
 // Projets.js
 
 import React from "react";
+import ProjectCard from "./ProjectCard";
 
 function Projets() {
-  return (
-    <section className="section">
-      <h2 className="text-center mb-4">Projets</h2>
-      {/* Contenu spécifique pour la section "Projets" */}
-    </section>
-  );
+    return (
+        <section className="section">
+            <div>
+                <ProjectCard />
+            </div>
+        </section>
+    );
 }
 
 export default Projets;

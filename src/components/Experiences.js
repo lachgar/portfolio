@@ -58,7 +58,7 @@ const Experiences = () => {
             logo: 'https://chemin/vers/logo/emines.png',
             title: 'EMINES - School of Industrial Management / Mohammed VI Polytechnic University',
             position: 'Professeur (Temps partiel)',
-            duration: 'sept. 2017 - juil. 2019 · 1 an 11 mois',
+            duration: 'sept. 2017 - juil. 2020 · 2 an 11 mois',
             location: 'Temps partiel',
             courses: ['Langage C', 'Python', 'Merise', 'XML', 'Web', 'UML']
         },
