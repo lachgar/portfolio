@@ -7,6 +7,7 @@ import Publications from "./components/Publications";
 import Projets from "./components/Projets";
 import ProfileImage from "./components/ProfileImage";
 import { Card } from 'primereact/card';
+import { Analytics } from '@vercel/analytics/react';
 import "./App.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 //theme
@@ -90,6 +91,7 @@ function App() {
         <footer className="footer">
           <p>@lachgar.m@gmail.com </p>
         </footer>
+        <Analytics />
       </div>
     </BrowserRouter>
   );
