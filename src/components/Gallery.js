@@ -11,6 +11,7 @@ import image6 from "../assets/image6.jpg";
 import image7 from "../assets/image7.jpg";
 import image8 from "../assets/image8.jpg";
 import image9 from "../assets/image9.jpg";
+import image11 from "../assets/image11.jpeg";
 
 function Gallery() {
     const [activeIndex, setActiveIndex] = useState(0);
@@ -62,6 +63,10 @@ function Gallery() {
         {
             src: image9,
             alt: "Image 9",
+        },
+        {
+            src: image11,
+            alt: "Image 11",
         },
     ];
 
