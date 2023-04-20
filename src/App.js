@@ -88,7 +88,7 @@ function App() {
 
         {/* Pied de page */}
         <footer className="footer">
-          <p>Contactez-moi : lachgar.m@gmail.com </p>
+          <p>@lachgar.m@gmail.com </p>
         </footer>
       </div>
     </BrowserRouter>
