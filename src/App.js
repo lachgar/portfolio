@@ -17,6 +17,7 @@ import "primereact/resources/primereact.min.css";
 import "primeicons/primeicons.css";
 import Experiences from "./components/Experiences";
 import Formations from "./components/Formations";
+import Gallery from "./components/Gallery";
 
 function App() {
   return (
@@ -63,18 +64,25 @@ function App() {
                 Projets
               </Link>
             </li>
+            <li className="nav-item">
+              <Link to="/Galerie" className="nav-link">
+                Galerie
+              </Link>
+            </li>
           </ul>
+
         </nav>
 
         {/* Contenu de la page */}
         <div className="container mt-4">
           <Routes>
             <Route exact path="/" element={<Accueil />} />
-            <Route  path="/formations" element={<Formations />} />
-            <Route  path="/experiences" element={<Experiences />} />
+            <Route path="/formations" element={<Formations />} />
+            <Route path="/experiences" element={<Experiences />} />
             <Route path="/cours" element={<Cours />} />
             <Route path="/publications" element={<Publications />} />
             <Route path="/projets" element={<Projets />} />
+            <Route path="/Galerie" element={<Gallery />} />
           </Routes>
         </div>
 

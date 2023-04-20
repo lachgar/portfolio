@@ -7,8 +7,8 @@ const CourseCard = ({ courseName, courseObjectives }) => {
                 <Accordion>
                         <AccordionTab header={courseName}>
                             <ul className="course-objectives">
-                                {courseObjectives.map((objective) => (
-                                    <li>{objective}</li>
+                                {courseObjectives.map((objective, index) => (
+                                    <li key={index}>{objective}</li>
                                 ))}
                             </ul>
                         </AccordionTab>

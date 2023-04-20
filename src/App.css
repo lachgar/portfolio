@@ -8,9 +8,6 @@
   text-align: center;
 }
 
-
-
-
 /* Style de la photo de profil */
 .profile-img {
   width: 140px;
@@ -19,6 +16,8 @@
   object-fit: cover;
   margin-top: -100px;
 }
+
+
 
 /* Style du menu de navigation */
 .navbar {
