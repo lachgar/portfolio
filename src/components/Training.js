@@ -22,7 +22,7 @@ const formationsData = [
                 fin: '2023-05-15',
                 nombrePlace: 20,
                 lieu: 'En ligne',
-                heuresParJour: 7,
+                heuresParJour: 3,
                 inscrits: ['Jean', 'Sophie'],
             },
             {
@@ -31,7 +31,7 @@ const formationsData = [
                 fin: '2023-06-15',
                 nombrePlace: 15,
                 lieu: 'En ligne',
-                heuresParJour: 6,
+                heuresParJour: 3,
                 inscrits: ['Marc'],
             },
         ],
@@ -49,7 +49,7 @@ const formationsData = [
                 fin: '2023-05-15',
                 nombrePlace: 15,
                 lieu: 'En ligne',
-                heuresParJour: 8,
+                heuresParJour: 3,
                 inscrits: [],
             },
         ],
@@ -67,13 +67,13 @@ const formationsData = [
                 fin: '2023-06-15',
                 nombrePlace: 10,
                 lieu: 'En ligne',
-                heuresParJour: 7,
+                heuresParJour: 3,
                 inscrits: [],
             },
         ],
     },
     {
-        id: 6,
+        id: 4,
         logo: 'https://example.com/springboot.png',
         nom: 'Spring Boot',
         objectif: 'Apprendre à développer des applications web avec Spring Boot.',
@@ -85,7 +85,7 @@ const formationsData = [
             fin: '2023-08-15',
             nombrePlace: 15,
             lieu: 'En ligne',
-            heuresParJour: 6,
+            heuresParJour: 3,
             inscrits: ['Pierre', 'Marie'],
           },
           {
@@ -94,13 +94,13 @@ const formationsData = [
             fin: '2023-09-15',
             nombrePlace: 20,
             lieu: 'En présentiel',
-            heuresParJour: 7,
+            heuresParJour: 3,
             inscrits: [],
           },
         ],
       },
       {
-        id: 6,
+        id: 5,
         logo: 'https://example.com/android.png',
         nom: 'Base de la programmation Android',
         objectif: 'Apprendre les concepts de base de la programmation Android.',
@@ -112,7 +112,7 @@ const formationsData = [
                 fin: '2023-07-15',
                 nombrePlace: 25,
                 lieu: 'En présentiel',
-                heuresParJour: 8,
+                heuresParJour: 3,
                 inscrits: ['Lucie', 'Paul', 'Julie'],
             },
             {
@@ -121,13 +121,13 @@ const formationsData = [
                 fin: '2023-08-15',
                 nombrePlace: 20,
                 lieu: 'En ligne',
-                heuresParJour: 7,
+                heuresParJour: 3,
                 inscrits: ['Alexandre', 'Nina'],
             },
         ],
     },
     {
-        id: 4,
+        id: 6,
         logo: 'https://example.com/android.png',
         nom: 'Android avancé',
         objectif: 'Approfondir les connaissances en développement d\'applications Android.',
@@ -139,7 +139,7 @@ const formationsData = [
             fin: '2023-07-15',
             nombrePlace: 15,
             lieu: 'En présentiel',
-            heuresParJour: 7,
+            heuresParJour: 3,
             inscrits: ['Pierre', 'Marie'],
           },
           {
@@ -148,7 +148,7 @@ const formationsData = [
             fin: '2023-08-15',
             nombrePlace: 10,
             lieu: 'En ligne',
-            heuresParJour: 6,
+            heuresParJour: 3,
             inscrits: ['Lucie'],
           },
           {
@@ -157,7 +157,7 @@ const formationsData = [
             fin: '2023-09-15',
             nombrePlace: 20,
             lieu: 'En présentiel',
-            heuresParJour: 6,
+            heuresParJour: 3,
             inscrits: [],
           },
         ],
@@ -170,7 +170,7 @@ const formationsData = [
 const Training = () => {
     const [selectedFormation, setSelectedFormation] = useState(null);
     const toast = useRef(null);
-    
+
     const onFormationSelect = (event) => {
         setSelectedFormation(event.data);
     };
