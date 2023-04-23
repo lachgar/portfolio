@@ -27,13 +27,20 @@ const ProjectCard = () => {
                 <Card key={index} className="project-card">
                     <Card.Body>
                         <Card.Title className="project-title">{project.name}</Card.Title>
-                        {project.school && <Card.Subtitle className="project-school">{project.school}</Card.Subtitle>}
-                        {project.competition && <Card.Text className="project-competition">{project.competition}</Card.Text>}
-                        <Card.Link href={project.link} className="project-link">Voir le projet</Card.Link>
+                        {project.school && (
+                            <Card.Subtitle className="project-school">{project.school}</Card.Subtitle>
+                        )}
+                        {project.competition && (
+                            <Card.Text className="project-competition">{project.competition}</Card.Text>
+                        )}
+                        <Card.Link href={project.link} className="project-link">
+                            Voir le projet
+                        </Card.Link>
                     </Card.Body>
                 </Card>
             ))}
         </div>
+
     );
 };
 
