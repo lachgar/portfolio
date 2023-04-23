@@ -8,6 +8,7 @@ import ms from '../assets/ms.jpg';
 import scjp from '../assets/scjp.jpg';
 import spring from '../assets/spring.jpg';
 import react from '../assets/react.jpg';
+import reacta from '../assets/reacta.jpg';
 
 function CertificationCard(props) {
     const { logo, title, issuer, date, id } = props;
@@ -64,6 +65,13 @@ function Certifications() {
             issuer: 'MetaMeta',
             date: 'mars 2023',
             id: 'YP33CDZUM99B'
+        },
+        {
+            logo: reacta,
+            title: 'Advanced React',
+            issuer: 'MetaMeta',
+            date: 'avr. 2023',
+            id: 'YP33CDZUM99N'
         }
     ];
     const PAGE_SIZE = 3;
