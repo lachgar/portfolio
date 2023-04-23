@@ -71,7 +71,7 @@ function Certifications() {
             title: 'Advanced React',
             issuer: 'MetaMeta',
             date: 'avr. 2023',
-            id: 'YP33CDZUM99N'
+            id: 'XAAS2FRPEZWC'
         }
     ];
     const PAGE_SIZE = 3;
