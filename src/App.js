@@ -20,6 +20,7 @@ import Experiences from "./components/Experiences";
 import Formations from "./components/Formations";
 import Gallery from "./components/Gallery";
 import Certifications from "./components/Certifications";
+import Training from "./components/Training";
 
 function App() {
   return (
@@ -73,7 +74,12 @@ function App() {
             </li>
 
             <li className="nav-item">
-              <Link to="/Galerie" className="nav-link">
+              <Link to="/training" className="nav-link">
+                Training programs
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link to="/galerie" className="nav-link">
                 Galerie
               </Link>
             </li>
@@ -91,7 +97,8 @@ function App() {
             <Route path="/publications" element={<Publications />} />
             <Route path="/projets" element={<Projets />} />
             <Route path="/certifications" element={<Certifications />} />
-            <Route path="/Galerie" element={<Gallery />} />
+            <Route path="/training" element={<Training />} />
+            <Route path="/galerie" element={<Gallery />} />
           </Routes>
         </div>
 
