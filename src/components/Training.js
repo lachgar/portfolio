@@ -1,10 +1,12 @@
-import React, { useState } from 'react';
+import React, { useState, useRef } from 'react';
 import { Button } from 'primereact/button';
 import { Card } from 'primereact/card';
 import { Dialog } from 'primereact/dialog';
 import { DataView } from 'primereact/dataview';
 import { DataTable } from 'primereact/datatable';
 import { Column } from 'primereact/column';
+import { Toast } from 'primereact/toast';
+
 
 const formationsData = [
     {
@@ -159,14 +161,16 @@ const formationsData = [
             inscrits: [],
           },
         ],
-      }      
+      }
+      
 ];
 
 
 
 const Training = () => {
     const [selectedFormation, setSelectedFormation] = useState(null);
-
+    const toast = useRef(null);
+    
     const onFormationSelect = (event) => {
         setSelectedFormation(event.data);
     };
@@ -178,6 +182,12 @@ const Training = () => {
     const handleInscription = (session) => {
         // TODO: logique d'inscription à une session
         console.log(`Inscription à la session ${session.id}`);
+        toast.current.show({
+            severity: 'info',
+            summary: 'Envoyer un email',
+            detail: 'Envoyer un email à lachgar.m@gmail.com',
+          });
+          
     };
 
 
@@ -224,7 +234,7 @@ const Training = () => {
     return (
         <>
             <DataView value={formationsData} itemTemplate={formationTemplate} />
-
+            <Toast ref={toast} />
             <Dialog visible={!!selectedFormation} onHide={onHide} footer={formationDialogFooter}>
                 {selectedFormation && (
                     <>
