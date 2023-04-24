@@ -72,12 +72,6 @@ function App() {
                 Certifications
               </Link>
             </li>
-
-            <li className="nav-item">
-              <Link to="/training" className="nav-link">
-                Training programs
-              </Link>
-            </li>
             <li className="nav-item">
               <Link to="/galerie" className="nav-link">
                 Galerie
@@ -97,7 +91,7 @@ function App() {
             <Route path="/publications" element={<Publications />} />
             <Route path="/projets" element={<Projets />} />
             <Route path="/certifications" element={<Certifications />} />
-            <Route path="/training" element={<Training />} />
+           {/* <Route path="/training" element={<Training />} />*/}
             <Route path="/galerie" element={<Gallery />} />
           </Routes>
         </div>
