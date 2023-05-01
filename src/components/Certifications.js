@@ -10,6 +10,7 @@ import spring from '../assets/spring.jpg';
 import react from '../assets/react.jpg';
 import reacta from '../assets/reacta.jpg';
 import sdr from '../assets/sdr.jpg';
+import smvc from '../assets/smvc.jpg';
 
 function CertificationCard(props) {
     const { logo, title, issuer, date, id } = props;
@@ -79,8 +80,16 @@ function Certifications() {
             title: 'Spring Data Repositories',
             issuer: 'Coursera Course Certificates',
             date: 'Mai. 2023',
-            id: 'L8YJRP7J783W.'
-        }
+            id: 'L8YJRP7J783W'
+        },
+        {
+            logo: smvc,
+            title: 'Spring MVC, Spring Boot and Rest Controllers',
+            issuer: 'Coursera Course Certificates',
+            date: 'Mai. 2023',
+            id: 'BFQ48SD6KH7R'
+        },
+        
     ];
     const PAGE_SIZE = 3;
     const [activePage, setActivePage] = React.useState(1);
