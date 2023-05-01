@@ -11,7 +11,7 @@ import react from '../assets/react.jpg';
 import reacta from '../assets/reacta.jpg';
 import sdr from '../assets/sdr.jpg';
 import smvc from '../assets/smvc.jpg';
-
+import springf from '../assets/springf.jpg';
 function CertificationCard(props) {
     const { logo, title, issuer, date, id } = props;
     return (
