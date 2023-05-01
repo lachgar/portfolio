@@ -12,6 +12,8 @@ import reacta from '../assets/reacta.jpg';
 import sdr from '../assets/sdr.jpg';
 import smvc from '../assets/smvc.jpg';
 import springf from '../assets/springf.jpg';
+import scloud from '../assets/scloud.jpg';
+
 function CertificationCard(props) {
     const { logo, title, issuer, date, id } = props;
     return (
@@ -95,6 +97,13 @@ function Certifications() {
             issuer: 'Coursera Course Certificates',
             date: 'mai. 2023',
             id: 'BFQ48SD6KH7R'
+        },
+        {
+            logo: scloud,
+            title: 'Spring - Cloud Overview',
+            issuer: 'Coursera Course Certificates',
+            date: 'mai. 2023',
+            id: 'APYY8AB2QBUW'
         },
         
     ];
