@@ -78,7 +78,7 @@ function Certifications() {
             logo: sdr,
             title: 'Spring Data Repositories',
             issuer: 'Coursera Course Certificates',
-            date: 'May. 2023',
+            date: 'Mai. 2023',
             id: 'L8YJRP7J783W.'
         }
     ];
