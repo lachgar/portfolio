@@ -59,14 +59,14 @@ function Certifications() {
         {
             logo: springf,
             title: 'Spring Framework',
-            issuer: 'Coursera Course Certificates',
+            issuer: 'LearnQuest',
             date: 'mai. 2023',
             id: '8EJL8B82SHYP'
         },
         {
             logo: spring,
             title: 'Spring - Ecosystem and Core',
-            issuer: 'Coursera Course Certificates',
+            issuer: 'LearnQuest',
             date: 'avr. 2023',
             id: 'CJU37ZVCGYBZ'
         },
@@ -87,21 +87,21 @@ function Certifications() {
         {
             logo: sdr,
             title: 'Spring Data Repositories',
-            issuer: 'Coursera Course Certificates',
+            issuer: 'LearnQuest',
             date: 'mai. 2023',
             id: 'L8YJRP7J783W'
         },
         {
             logo: smvc,
             title: 'Spring MVC, Spring Boot and Rest Controllers',
-            issuer: 'Coursera Course Certificates',
+            issuer: 'LearnQuest',
             date: 'mai. 2023',
             id: 'BFQ48SD6KH7R'
         },
         {
             logo: scloud,
             title: 'Spring - Cloud Overview',
-            issuer: 'Coursera Course Certificates',
+            issuer: 'LearnQuest',
             date: 'mai. 2023',
             id: 'APYY8AB2QBUW'
         },
