@@ -9,6 +9,7 @@ import scjp from '../assets/scjp.jpg';
 import spring from '../assets/spring.jpg';
 import react from '../assets/react.jpg';
 import reacta from '../assets/reacta.jpg';
+import sdr from '../assets/sdr.jpg';
 
 function CertificationCard(props) {
     const { logo, title, issuer, date, id } = props;
@@ -72,6 +73,13 @@ function Certifications() {
             issuer: 'MetaMeta',
             date: 'avr. 2023',
             id: 'XAAS2FRPEZWC'
+        },
+        {
+            logo: sdr,
+            title: 'Spring Data Repositories',
+            issuer: 'Coursera Course Certificates',
+            date: 'May. 2023',
+            id: 'L8YJRP7J783W.'
         }
     ];
     const PAGE_SIZE = 3;
