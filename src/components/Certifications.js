@@ -73,14 +73,14 @@ function Certifications() {
         {
             logo: react,
             title: 'React Basics',
-            issuer: 'MetaMeta',
+            issuer: 'Meta',
             date: 'mars 2023',
             id: 'YP33CDZUM99B'
         },
         {
             logo: reacta,
             title: 'Advanced React',
-            issuer: 'MetaMeta',
+            issuer: 'Meta',
             date: 'avr. 2023',
             id: 'XAAS2FRPEZWC'
         },
