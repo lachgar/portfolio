@@ -55,6 +55,13 @@ function Certifications() {
             id: 'SR6595546'
         },
         {
+            logo: springf,
+            title: 'Spring Framework',
+            issuer: 'Coursera Course Certificates',
+            date: 'Mai. 2023',
+            id: '8EJL8B82SHYP'
+        },
+        {
             logo: spring,
             title: 'Spring - Ecosystem and Core',
             issuer: 'Coursera Course Certificates',
