@@ -17,6 +17,11 @@ const projects = [
         name: "Plateforme web et mobile de gestion et de suivi des absences et des demandes de documents administratifs",
         school: "Ecole Nationale des Sciences Appliquées d'El Jadida",
         link: "https://absence.esefj.ma/public/"
+    },
+    {
+        name: "ProfSwap - Plateforme de permutation pour les enseignants développée en MERN Stack",
+        school: "Optimiser la recherche d'un partenaire pour effectuer une permutation",
+        link: "https://permutation.vercel.app"
     }
 ];
 
