@@ -14,6 +14,7 @@ import smvc from '../assets/smvc.jpg';
 import springf from '../assets/springf.jpg';
 import scloud from '../assets/scloud.jpg';
 import reactn from '../assets/reactn.jpg';
+
 function CertificationCard(props) {
     const { logo, title, issuer, date, id } = props;
     return (
