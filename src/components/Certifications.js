@@ -13,7 +13,7 @@ import sdr from '../assets/sdr.jpg';
 import smvc from '../assets/smvc.jpg';
 import springf from '../assets/springf.jpg';
 import scloud from '../assets/scloud.jpg';
-
+import reactn from '../assets/reactn.jpg';
 function CertificationCard(props) {
     const { logo, title, issuer, date, id } = props;
     return (
@@ -83,6 +83,13 @@ function Certifications() {
             issuer: 'Meta',
             date: 'avr. 2023',
             id: 'XAAS2FRPEZWC'
+        },
+        {
+            logo: reactn,
+            title: 'React Native',
+            issuer: 'Meta',
+            date: 'mai. 2023',
+            id: 'G6JMZ6X5HAY7'
         },
         {
             logo: sdr,
