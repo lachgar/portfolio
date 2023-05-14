@@ -86,13 +86,6 @@ function Certifications() {
             id: 'XAAS2FRPEZWC'
         },
         {
-            logo: reactn,
-            title: 'React Native',
-            issuer: 'Meta',
-            date: 'mai. 2023',
-            id: 'G6JMZ6X5HAY7'
-        },
-        {
             logo: sdr,
             title: 'Spring Data Repositories',
             issuer: 'LearnQuest',
@@ -112,6 +105,13 @@ function Certifications() {
             issuer: 'LearnQuest',
             date: 'mai. 2023',
             id: 'APYY8AB2QBUW'
+        },
+        {
+            logo: reactn,
+            title: 'React Native',
+            issuer: 'Meta',
+            date: 'mai. 2023',
+            id: 'G6JMZ6X5HAY7'
         },
         
     ];
