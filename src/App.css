@@ -122,3 +122,25 @@
     margin-right: 0;
   }
 }
+
+.thesis-list {
+  margin-top: 20px;
+}
+
+.thesis-item {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.thesis-item h3 {
+  margin-top: 0;
+}
+
+.thesis-item p {
+  margin-bottom: 5px;
+}
+
+.thesis-item strong {
+  font-weight: bold;
+}

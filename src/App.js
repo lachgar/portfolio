@@ -20,6 +20,7 @@ import Formations from "./components/Formations";
 import Gallery from "./components/Gallery";
 import Certifications from "./components/Certifications";
 import Training from "./components/Training";
+import ActivityComponent from "./components/ActivityComponent";
 
 function App() {
   return (
@@ -62,6 +63,11 @@ function App() {
               </Link>
             </li>
             <li className="nav-item">
+              <Link to="/activites" className="nav-link">
+              Résponsabilités
+              </Link>
+            </li>
+            <li className="nav-item">
               <Link to="/projets" className="nav-link">
                 Projets
               </Link>
@@ -88,6 +94,7 @@ function App() {
             <Route path="/experiences" element={<Experiences />} />
             <Route path="/cours" element={<Cours />} />
             <Route path="/publications" element={<Publications />} />
+            <Route path="/activites" element={<ActivityComponent />} />
             <Route path="/projets" element={<Projets />} />
             <Route path="/certifications" element={<Certifications />} />
            {/* <Route path="/training" element={<Training />} />*/}
