@@ -22,8 +22,22 @@ const Experiences = () => {
         {
             logo: '../assets/ensaj.png',
             title: 'Ecole Nationale des Sciences Appliquées d\'El Jadida',
+            position: 'Professeur d\'enseignement supérieur habilité',
+            duration: 'juin 2013 - aujourd\'hui',
+            location: 'Province d’El Jadida, Morocco',
+            courses: [
+                'Développement JEE',
+                'Programmation réseau et JEE',
+                'Programmation mobile',
+                'Programmation web',
+                'Programmation multiplateforme'
+            ]
+        },
+        {
+            logo: '../assets/ensaj.png',
+            title: 'Ecole Nationale des Sciences Appliquées d\'El Jadida',
             position: 'Professeur d\'enseignement supérieur assistant',
-            duration: 'juin 2019 - aujourd\'hui',
+            duration: 'juin 2019 - juin 2023',
             location: 'Province d’El Jadida, Morocco',
             courses: [
                 'Programmation réseau et JEE',
