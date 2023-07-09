@@ -22,7 +22,7 @@ const Experiences = () => {
         {
             logo: '../assets/ensaj.png',
             title: 'Ecole Nationale des Sciences Appliquées d\'El Jadida',
-            position: 'Professeur d\'enseignement supérieur habilité',
+            position: 'Professeur habilité',
             duration: 'juin 2023 - aujourd\'hui',
             location: 'Province d’El Jadida, Morocco',
             courses: [
