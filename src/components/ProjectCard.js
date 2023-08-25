@@ -22,6 +22,11 @@ const projects = [
         name: "ProfSwap - Plateforme de permutation pour les enseignants développée en MERN Stack",
         school: "Optimiser la recherche d'un partenaire pour effectuer une permutation",
         link: "https://permutation.vercel.app"
+    },
+    {
+        name: "Site de la faculté Polydisciplinaire Sidi Bennour",
+        school: "Faculté Polydisciplinaire Sidi Bennour",
+        link: "https://www.fpsb.ucd.ac.ma/"
     }
 ];
 
