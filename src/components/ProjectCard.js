@@ -6,7 +6,7 @@ const projects = [
         name: "Plateforme de la pré-candidature à la licence d'éducation",
         school: "Ecole Supérieure d'Education et de Formation de l'Université Chouaîb Doukkali",
         competition: "Concours passerelle S3",
-        link: "https://esefj.ma/public/Accueil"
+        link: "https://passerelle.esefj.ucd.ac.ma/"
     },
     {
         name: "Plateforme de pré-candidature à l'Habilitation Universitaire à l'École Nationale des Sciences Appliquées d'El Jadida",
