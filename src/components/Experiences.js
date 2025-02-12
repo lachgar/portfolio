@@ -23,7 +23,7 @@ const Experiences = () => {
             "logo": "../assets/ens.png",
             "title": "École Normale Supérieure",
              position: 'Professeur habilité',
-            duration: 'juin 2024 - aujourd\'hui',
+            duration: 'octobre 2024 - aujourd\'hui',
             location: 'Marrakech, Morocco',
             "courses": [
                     "Licence 3 : Programmation 3",
