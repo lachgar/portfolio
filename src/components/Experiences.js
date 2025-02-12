@@ -26,12 +26,12 @@ const Experiences = () => {
             duration: 'octobre 2024 - aujourd\'hui',
             location: 'Marrakech, Morocco',
             "courses": [
-                    "Licence 3 : Programmation 3",
-                    "Licence 3 : Programmation Orientée Objet",
-                    "Licence 3 : Programmation Web et Mobile 2",
+                    "Licence 3 : Programmation 3 (C++, Java)",
+                    "Licence 3 : Programmation Orientée Objet (C++, Java, Python)",
+                    "Licence 3 : Programmation Web et Mobile 2 (NodeJs, ReactJs, NextJs, WebSocket, WebWorker, Android (Java, Kotlin)",
                     "Licence 3 : Base de données",
                     "Master : Programmation avancée (Microservices et DevOps)",
-                    "Master : Développement Web et Multiplateforme"
+                    "Master : Développement Web et Multiplateforme (ReactJs, ReactNative, Flutter)"
                 ]
         },
         {
