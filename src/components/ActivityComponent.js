@@ -37,15 +37,7 @@ const theses = [
         coSupervisor: 'Mohamed LACHGAR',
         duration: '2022-2025',
     },
-    {
-        id: 'TH5',
-        title: 'Grande masse de données et villes intelligentes : vers une exploitation efficace de la grande masse de données (Big Data) au profit des villes intelligentes',
-        author: 'Soukaina BADRI',
-        degree: 'Diplômé du Master Imagerie et informatique décisionnelle de Faculté des Sciences Dhar El Mahraz',
-        supervisor: 'Hamid HRIMECH (LAMSAD)',
-        coSupervisor: 'Mohamed LACHGAR',
-        duration: '2022-2025',
-    },
+
 ];
 const ActivityComponent = () => {
     const [activeTab, setActiveTab] = useState(0);
