@@ -30,6 +30,7 @@ const Experiences = () => {
                     "Licence 3 : Programmation Orientée Objet (C++, Java, Python)",
                     "Licence 3 : Programmation Web et Mobile 2 (NodeJs, ReactJs, NextJs, WebSocket, WebWorker, Android (Java, Kotlin)",
                     "Licence 3 : Base de données",
+                    "Licence 3 : Conception des SI et génie logiciel",
                     "Master : Programmation avancée (Web Services (REST, GraphQL, SOAP, gRPC), Microservices (Eureka, Consul) et DevOps (Docker, Jenkins, SonarQube))",
                     "Master : Développement Web et Multiplateforme (ReactJs, ReactNative, Flutter)"
                 ]
