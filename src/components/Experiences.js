@@ -41,11 +41,11 @@ const Experiences = () => {
             duration: 'juin 2023 - Octobre 2024',
             location: 'Province d’El Jadida, Morocco',
             courses: [
-                'Développement JEE',
+                'Développement Web JEE',
                 'Programmation réseau et JEE',
-                'Programmation mobile',
-                'Programmation web',
-                'Programmation multiplateforme'
+                'Programmation mobile native (Android, iOs)',
+                'Programmation web (PHP, NodeJs, etc.)',
+                'Programmation multiplateforme (Flutter, React Native, Ionic)'
             ]
         },
         {
