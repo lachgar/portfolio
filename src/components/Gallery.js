@@ -13,6 +13,9 @@ import image8 from "../assets/image8.jpg";
 import image9 from "../assets/image9.jpg";
 import image11 from "../assets/image11.jpeg";
 import image12 from "../assets/sou1.jpeg";
+import image13 from "../assets/IMG_20221108_134122.jpg";
+import image14 from "../assets/IMG_20221108_133959.jpg";
+import image15 from "../assets/IMG_20220330_164804.jpg";
 
 function Gallery() {
     const [activeIndex, setActiveIndex] = useState(0);
@@ -71,6 +74,18 @@ function Gallery() {
         },
         {
             src: image12,
+            alt: "Image 12",
+        },
+        {
+            src: image13,
+            alt: "Image 12",
+        },
+        {
+            src: image14,
+            alt: "Image 12",
+        },
+        {
+            src: image15,
             alt: "Image 12",
         },
     ];
