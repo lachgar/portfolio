@@ -20,6 +20,19 @@ const Experiences = () => {
     // Données pour chaque expérience
     const experienceData = [
         {
+            "logo": "../assets/ens.png",
+            "title": "École Normale Supérieure",
+            "position": "Professeur",
+            "courses": [
+                    "Licence 3 : Programmation 3",
+                    "Licence 3 : Programmation Orientée Objet",
+                    "Licence 3 : Programmation Web et Mobile 2",
+                    "Licence 3 : Base de données",
+                    "Master : Programmation avancée (Microservices et DevOps)",
+                    "Master : Développement Web et Multiplateforme"
+                ]
+        },
+        {
             logo: '../assets/ensaj.png',
             title: 'Ecole Nationale des Sciences Appliquées d\'El Jadida',
             position: 'Professeur habilité',
