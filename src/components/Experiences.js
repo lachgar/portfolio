@@ -22,7 +22,9 @@ const Experiences = () => {
         {
             "logo": "../assets/ens.png",
             "title": "École Normale Supérieure",
-            "position": "Professeur",
+             position: 'Professeur habilité',
+            duration: 'juin 2024 - aujourd\'hui',
+            location: 'Marrakech, Morocco',
             "courses": [
                     "Licence 3 : Programmation 3",
                     "Licence 3 : Programmation Orientée Objet",
@@ -36,7 +38,7 @@ const Experiences = () => {
             logo: '../assets/ensaj.png',
             title: 'Ecole Nationale des Sciences Appliquées d\'El Jadida',
             position: 'Professeur habilité',
-            duration: 'juin 2023 - aujourd\'hui',
+            duration: 'juin 2023 - Octobre 2024',
             location: 'Province d’El Jadida, Morocco',
             courses: [
                 'Développement JEE',
