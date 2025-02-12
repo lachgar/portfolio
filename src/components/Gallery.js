@@ -78,15 +78,15 @@ function Gallery() {
         },
         {
             src: image13,
-            alt: "Image 12",
+            alt: "Image 13",
         },
         {
             src: image14,
-            alt: "Image 12",
+            alt: "Image 14",
         },
         {
             src: image15,
-            alt: "Image 12",
+            alt: "Image 15",
         },
     ];
 
